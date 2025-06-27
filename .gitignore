@@ -1,0 +1,12 @@
+node_modules/
+.env
+.DS_Store
+*.log
+.session
+.session-*
+*.sqlite
+*.db
+.cache/
+output/
+.wwebjs_auth/
+.wwebjs_cache/

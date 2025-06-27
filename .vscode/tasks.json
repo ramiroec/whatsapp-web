@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Instalar dependencias",
+            "type": "shell",
+            "command": "npm install whatsapp-web.js qrcode-terminal",
+            "problemMatcher": [],
+            "group": "build"
+        },
+        {
+            "label": "Ejecutar app.js",
+            "type": "shell",
+            "command": "node app.js",
+            "problemMatcher": [],
+            "group": "test"
+        }
+    ]
+}
